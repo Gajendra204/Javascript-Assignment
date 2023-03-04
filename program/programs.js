@@ -74,4 +74,37 @@ let trimStr = str.trim();
 console.log(trimStr); 
 
 
+// Count the number of vowels
+
+const string1="Gajendra";
+
+
+
+
+
+
+
+
+// Sort an array
+
+function sortarray(arr){
+    let i;
+    let j;
+    for(i=0;i<5;i++){
+        for(j=i+1;j<5;j++){
+            if(arr[i]>arr[j]){
+                let temp = arr[i];
+                arr[i]=arr[j];
+                arr[j]=temp;
+            }
+        }
+    }
+    for(i=0;i<5;i++){
+        console.log(arr[i]);
+    }
+}
+sortarray([2,3,4,5,6]);
+
+
+
 
